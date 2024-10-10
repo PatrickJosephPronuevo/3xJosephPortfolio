@@ -53,17 +53,27 @@ const Projects = () => {
                     {item.description}
                   </p>
 
-                  {/* Display play and install links as clickable text */}
-                  <div className="my-4">
+                  {/* Play and Install buttons styled like ViewCodeButton */}
+                  <div className="my-4 flex space-x-3">
                     {item.play && (
-                      <p className="font-bold text-[12px] xs:text-[13px] text-gray-700">
-                        Play: <a href={item.play} className="text-accent underline">{item.play}</a>
-                      </p>
+                      <a
+                        href={item.play}
+                        className="bg-[#008FBF] w-[120px] py-[4px] rounded-[5px] text-white tracking-wide font-medium text-[12px] md:text-[14px] hover:bg-[#007B9A] transform hover:-translate-y-[2px] shadow-md shadow-[rgba(48,18,17,.50)] transition-all duration-200 text-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Play
+                      </a>
                     )}
                     {item.install && (
-                      <p className="font-bold text-[12px] xs:text-[13px] text-gray-700">
-                        Install: <a href={item.install} className="text-accent underline">{item.install}</a>
-                      </p>
+                      <a
+                        href={item.install}
+                        className="bg-[#28A745] w-[120px] py-[4px] rounded-[5px] text-white tracking-wide font-medium text-[12px] md:text-[14px] hover:bg-[#218838] transform hover:-translate-y-[2px] shadow-md shadow-[rgba(48,18,17,.50)] transition-all duration-200 text-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Install
+                      </a>
                     )}
                   </div>
 
@@ -90,4 +100,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
