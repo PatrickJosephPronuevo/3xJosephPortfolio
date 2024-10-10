@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  .kanit {
+    font-family: "kanit", "Poppins", sans-serif;
+  }
+  .mySwiper {
+    mask: linear-gradient(
+      90deg,
+      transparent,
+      white 10%,
+      white 90%,
+      transparent
+    );
+  }
+}
