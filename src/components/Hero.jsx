@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadButton from "./DownloadButton";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/profile4.png";
 import Circles from "./Circles";
 
 const Hero = () => {
@@ -19,18 +19,9 @@ const Hero = () => {
               Patrick Joseph Pronuevo
             </h3>
             <p className="text-[15px] md:text-[18px] mt-3 lg:mt-0 text-center lg:text-justify lg:text-[15px] xl:text-[16.5px] tracking-wide">
-              A Graduate from
-              <span className={spanStyle}> Bulacan State University, </span>
-              Adept in the realms of
-              <span className={spanStyle}> Web Development </span>
-              as well as
-              <span className={spanStyle}> Mobile Application </span>
-              and
-              <span className={spanStyle}> Game Development. </span>With a keen
-              interest in the latest technologies, I am committed to staying
-              updated and continuously expanding my skills to create innovative
-              solutions.
+              An aspiring <span className={spanStyle}>Game Developer</span> passionate about creating engaging and entertaining experiences. I specialize in <span className={spanStyle}>Unity</span> and <span className={spanStyle}>C#</span> but am eager to expand my expertise by learning <span className={spanStyle}>Unreal Engine</span>, <span className={spanStyle}>C++</span>, and <span className={spanStyle}>Blender</span>. With a strong commitment to honing my skills, I strive to stay at the forefront of industry innovations to deliver unique and immersive gameplay experiences.
             </p>
+
           </div>
           <DownloadButton />
         </div>

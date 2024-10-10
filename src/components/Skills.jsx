@@ -1,12 +1,17 @@
 import Programmer from "../assets/programmer.png";
-import { LanguagesData, OtherSkillsData } from "../data/SkillsData";
-import Java from "../assets/icons/java.png";
+import { LanguagesData, GameDevData, FrameworksData, ToolsData, DatabaseData, OthersData } from "../data/SkillsData";
 
 const Skills = () => {
+  // Organize the skill categories
   const skillData = [
     { title: "Languages", data: LanguagesData },
-    { title: "Others", data: OtherSkillsData },
+    { title: "Game Development", data: GameDevData },
+    { title: "Frameworks", data: FrameworksData },
+    { title: "Tools", data: ToolsData },
+    { title: "Databases", data: DatabaseData },
+    { title: "Others", data: OthersData },
   ];
+
   return (
     <>
       <section className="pt-10 pb-10 sm:pb-16 mx-[20px] sm:mx-[50px] md:mx-[120px]">
@@ -32,22 +37,22 @@ const Skills = () => {
               />
             </div>
             <div className="col-span-12 lg:col-span-6 xxl:col-span-5 space-y-5 sm:space-y-8">
-              {skillData.map((item, index) => (
+              {skillData.map((category, index) => (
                 <div key={index} data-aos="fade-up" data-aos-duration="500">
                   <h6 className="text-center lg:text-start text-[20px] tracking-wide font-bold uppercase">
-                    {item.title}
+                    {category.title}
                   </h6>
                   <div className="mt-3 flex flex-wrap justify-center lg:justify-start gap-7">
-                    {item.data.map((item, index) => (
-                      <div key={index} className="flex flex-col gap-y-2">
+                    {category.data.map((skill, skillIndex) => (
+                      <div key={skillIndex} className="flex flex-col gap-y-2">
                         <img
-                          src={item.img}
-                          alt={item.name}
+                          src={skill.img}
+                          alt={skill.name}
                           loading="lazy"
                           className="w-[35px] h-[35px] mx-auto object-cover"
                         />
                         <span className="text-[12px] text-[#6A6A6A] text-center font-medium truncate w-[50px] hover:w-fit">
-                          {item.name}
+                          {skill.name}
                         </span>
                       </div>
                     ))}

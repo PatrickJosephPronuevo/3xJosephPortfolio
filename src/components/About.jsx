@@ -1,4 +1,4 @@
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/profile4.png";
 import Circles from "./Circles";
 
 const About = () => {

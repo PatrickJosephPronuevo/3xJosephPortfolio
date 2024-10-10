@@ -46,12 +46,27 @@ const Projects = () => {
                   <h1 className="text-[20px] xs:text-[22px] xl:text-[25px] font-semibold tracking-wide">
                     {item.title}
                     <span className="font-semibold text-[16px] xs:text-[18px]">
-                      {`(${item.date})`}
+                      {` (${item.date})`}
                     </span>
                   </h1>
                   <p className="text-[13px] xs:text-[15px] mt-2 text-justify">
                     {item.description}
                   </p>
+
+                  {/* Display play and install links as clickable text */}
+                  <div className="my-4">
+                    {item.play && (
+                      <p className="font-bold text-[12px] xs:text-[13px] text-gray-700">
+                        Play: <a href={item.play} className="text-accent underline">{item.play}</a>
+                      </p>
+                    )}
+                    {item.install && (
+                      <p className="font-bold text-[12px] xs:text-[13px] text-gray-700">
+                        Install: <a href={item.install} className="text-accent underline">{item.install}</a>
+                      </p>
+                    )}
+                  </div>
+
                   <div className="my-4 flex flex-wrap gap-3">
                     {item.tools.map((tool, index) => (
                       <p
@@ -75,3 +90,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
