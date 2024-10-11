@@ -1,4 +1,4 @@
-import Resume from "../assets/docs/PRONUEVO, Patrick Joseph A..pdf";
+import Resume from "../assets/docs/Patrick Joseph Pronuevo - CV.pdf";
 
 const DownloadButton = () => {
   const buttonStyle =
