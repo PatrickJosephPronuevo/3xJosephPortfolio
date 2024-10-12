@@ -1,4 +1,4 @@
-import Resume from "../assets/docs/Patrick Joseph Pronuevo - CV NO PIC.pdf";
+import Resume from "../assets/docs/Patrick_JosephPronuevo_Resume.pdf";
 
 const DownloadButton = () => {
   const buttonStyle =
