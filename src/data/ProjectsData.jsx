@@ -1,8 +1,5 @@
-import Quirkify from "../assets/projects/quirkify.png";
-import MovieHub from "../assets/projects/moviehub.png";
-import SkyCast from "../assets/projects/health.png";
-
 // Images
+import GuardiansofLuzviminda from "../assets/projects/gol.png";
 import WhisperoftheDead from "../assets/projects/whisperofthedead.png";
 import PurrFectCode from "../assets/projects/purrfectCode.png";
 import KingdomSeigeII from "../assets/projects/kingdomseige2.png";
@@ -16,7 +13,12 @@ import MLSA from "../assets/projects/mlsa-portfolio.png";
 import BulSUConnect from "../assets/projects/bulsuconnect.png";
 import Acodemia from "../assets/projects/acodemia.png";
 
+import Quirkify from "../assets/projects/quirkify.png";
+import MovieHub from "../assets/projects/moviehub.png";
+import SkyCast from "../assets/projects/health.png";
+
 // GIFs
+import GuardiansofLuzvimindaGIF from "../assets/projects/gol.gif";
 import WhisperoftheDeadGIF from "../assets/projects/whisperofthedead.gif";
 import PurrFectCodeGIF from "../assets/projects/purrfectCode.gif";
 import KingdomSeigeIIGIF from "../assets/projects/kingdomseige2.gif";
@@ -33,6 +35,18 @@ import MovieHubGIF from "../assets/projects/moviehub.gif";
 import SkyCastGIF from "../assets/projects/skycast.gif";
 
 export const ProjectsData = [
+  {
+    img: GuardiansofLuzviminda,
+    gif: GuardiansofLuzvimindaGIF,
+    title: "Guardians of Luzviminda",
+    date: "2024",
+    description:
+      "Guardians of Luzviminda” (GOL) wields the immersive powers of interactive media to bring Filipino youth's consciousness closer to the environment.",
+    tools: ["C#", "ShaderLab", "HLSL", "UNTIY"],
+    url: "https://github.com/3xjoseph/GOL-main",
+    play: null, // Example play link
+    install: "https://www.mediafire.com/file/xihxiio3ferzc8z/Guardians_of_Luzviminda.apk/file", // Example install link
+  },
   {
     img: WhisperoftheDead,
     gif: WhisperoftheDeadGIF,
