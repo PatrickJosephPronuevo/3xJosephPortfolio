@@ -45,7 +45,7 @@ export const ProjectsData = [
     tools: ["C#", "ShaderLab", "HLSL", "UNTIY"],
     url: "https://github.com/3xjoseph/GOL-main",
     play: null, // Example play link
-    install: "https://www.mediafire.com/file/h01096opdtwsq29/Guardians_of_Luzviminda.apk/file", // Example install link
+    install: "https://www.mediafire.com/file/p7mrds0p7zwnpnm/GOL.apk/file", // Example install link
   },
   {
     img: WhisperoftheDead,
