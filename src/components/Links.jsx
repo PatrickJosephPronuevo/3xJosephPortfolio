@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Links = () => {
   const socialLinks = [
-    { link: "https://github.com/PatrickJosephPronuevo", Icon: FaGithub },
+    { link: "https://github.com/3xjoseph", Icon: FaGithub },
     {
       link: "https://www.facebook.com/3xj0seph",
       Icon: FaFacebook,
