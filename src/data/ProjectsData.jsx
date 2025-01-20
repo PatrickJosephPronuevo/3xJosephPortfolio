@@ -44,8 +44,8 @@ export const ProjectsData = [
       "Guardians of Luzviminda” (GOL) wields the immersive powers of interactive media to bring Filipino youth's consciousness closer to the environment.",
     tools: ["C#", "ShaderLab", "HLSL", "UNTIY"],
     url: "https://github.com/3xjoseph/GOL-main",
-    play: null, // Example play link
-    install: "https://www.mediafire.com/file/4qq8yvnoz0oc5at/GOL.apk/file", // Example install link
+    play: null,
+    install: "https://www.mediafire.com/file/4qq8yvnoz0oc5at/GOL.apk/file",
   },
   {
     img: WhisperoftheDead,
